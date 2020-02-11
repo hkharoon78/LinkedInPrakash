@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite configfailurepolicy="continue" name="Suite" parallel="none">
+  <test name="Test" preserve-order="true">
+    <classes>
+      <class name="TestCases.TestCases"/>
+      <methods>
+        <exclude name="SavedSearcher"/>
+        <include name="SavedLeads"/>
+        <exclude name="Recommended leads "/>
+        <exclude name="Scan_profiles"/>
+        <exclude name="Connections"/>
+        <exclude name="InvitationsAccepts"/>
+        <exclude name="You_may_know"/>
+        <exclude name="Followers"/>
+        <exclude name="Groups_messaging"/>
+        <exclude name="Industry leaders in India you may know"/>
+      </methods>
+    </classes>
+  </test>
+</suite>
